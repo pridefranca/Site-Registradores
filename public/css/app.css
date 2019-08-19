@@ -14,7 +14,7 @@ body {
 .top_menu {
   /*Campo com o imagens Ari e Logo */
   width: 120%;
-  padding: 15px 0 60px;
+  padding: 16px 0 60px;
   border-bottom: 1px solid #efefef;
 }
 
@@ -24,16 +24,16 @@ body {
   height: 80px;
   top: 0px;
   bottom: 0px;
-  left: 120px;
+  left: 160px;
 }
 
 .top_menu .ari {
   position: absolute;
   width: 20%;
   height: 100px;
-  top: 0px;
+  top: 2px;
   bottom: 0px;
-  left: 25px;
+  left: 19px;
 }
 
 .top_menu .logo {
@@ -60,15 +60,18 @@ div {
 }
 
 .disclaimer {
-  font-size: 0.75rem;
-  padding: 0.5rem;
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 117px;
+  border-bottom: 1px solid #efefef;
 }
 
 .assistente h3 span {
   font-size: 16px;
   font-weight: normal;
   line-height: 16px;
-  margin-top: 15px;
+  margin-top: 12px;
   float: left;
 }
 
@@ -120,6 +123,25 @@ div {
   overflow: visible;
 }
 
+.copyright {
+  display: block;
+  width: 462px;
+  height: 20px;
+  position: absolute;
+  text-align: center;
+  padding-top: 11px;
+  bottom: 14px;
+  background-image: url("../img/arisp.png");
+  background-repeat: no-repeat;
+  background-position: 306px;
+}
+
+.copyright span {
+  font-size: 12px !important;
+  font-weight: normal;
+  line-height: 0px;
+}
+
 .button-send {
   background: #eee;
   background-image: url("../img/send.png") !important;
@@ -134,7 +156,7 @@ div {
   font-size: 18px;
   border-radius: 44px;
   z-index: 1;
-  bottom: 30px;
+  bottom: 51px;
   right: 21px;
   cursor: pointer;
 }
@@ -286,7 +308,7 @@ div {
   border: 1px solid #ccc !important;
   padding-left: 20px;
   padding-right: 38px;
-  bottom: 20px;
+  bottom: 42px;
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial,
     sans-serif;
   position: absolute;
